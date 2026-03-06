@@ -6,6 +6,8 @@ Vehicle) functionality for the [BlueRobotics BlueROV2](https://www.bluerobotics.
 Orca4 uses [ArduSub](http://www.ardusub.com/) as the flight controller and
 [mavros](https://github.com/mavlink/mavros) as the GCS.
 
+> Update 14-Nov-2025: [Orca5](https://github.com/clydemcqueen/orca5) demonstrates single-camera SLAM, and avoids the use of Nav2 and mavros.
+
 Orca4 runs in [Gazebo Harmonic](https://gazebosim.org/home) using the standard buoyancy, hydrodynamics and thruster
 plugins. The connection between ArduSub and Gazebo is provided by [ardupilot_gazebo](https://github.com/ArduPilot/ardupilot_gazebo).
 
