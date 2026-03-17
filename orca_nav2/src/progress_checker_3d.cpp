@@ -24,7 +24,7 @@
 
 #include "nav2_core/progress_checker.hpp"
 #include "orca_nav2/param_macro.hpp"
-#include "orca_shared/util.hpp"
+#include "orca_nav2/util.hpp"
 
 namespace orca_nav2
 {

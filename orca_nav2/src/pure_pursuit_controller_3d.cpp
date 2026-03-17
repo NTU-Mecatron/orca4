@@ -30,7 +30,7 @@
 #include <vector>
 
 #include "orca_nav2/param_macro.hpp"
-#include "orca_shared/util.hpp"
+#include "orca_nav2/util.hpp"
 #include "nav2_core/controller.hpp"
 #include "nav2_core/controller_exceptions.hpp"
 #include "rclcpp/rclcpp.hpp"
