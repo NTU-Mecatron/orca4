@@ -32,7 +32,7 @@
 #include "orca_nav2/param_macro.hpp"
 #include "orca_shared/util.hpp"
 #include "nav2_core/controller.hpp"
-#include "nav2_core/exceptions.hpp"
+#include "nav2_core/controller_exceptions.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "pluginlib/class_loader.hpp"
 
@@ -338,7 +338,7 @@ public:
   void setPlan(const nav_msgs::msg::Path & plan) override
   {
     if (plan.poses.empty()) {
-      throw nav2_core::PlannerException("Received plan with zero length");
+      throw nav2_core::ControllerException("Received plan with zero length");
     }
     plan_ = plan;
   }
